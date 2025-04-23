@@ -15,7 +15,7 @@ def submission_1_20213608(yaml_path, output_json_path):
     ex_dict = {}
     epochs = 20
     batch_size = 8
-    optimizer = 'AdamW'
+    optimizer = 'Adam'
     lr = 1e-3
     momentum = 0.9
     weight_decay = 1e-4
